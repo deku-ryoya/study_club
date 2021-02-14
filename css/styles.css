@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url(../top.jpg);
+  background-size: cover;
+  height: 800px;
+  font-family: serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+header p {
+  font-size: 20px;
+  color: black;
+  margin: 40px 0;
+}
+
+.btn {
+  background: white;
+  color: black;
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.container img {
+  width: 320px;
+  height: 250px;
+}
+
+
+.container {
+  font-family: serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.container section {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.container .icon {
+}
+
+.container .info {
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 64px 0;
+}
+
+
+.container h2 {
+  font-size: 30px;
+}
+
+.container .info p {
+  padding-bottom: 64px;
+}
+
+.members  {
+  font-family: serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 25px;
+}
+
+.members h1 {
+  padding: 64px 0;
+}
+
+.members h2 {
+  margin: 10px;
+  font-size: 25px;
+  padding: 32px;
+}
+.members p {
+  font-size: 15px;
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 64px;
+}
+
+.members img {
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.members ul {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.members li {
+  list-style: none;
+}
+
+.call-to-action {
+  font-family: serif;
+  text-align: center;
+}
+
+.call-to-action {
+  font-size: 20px;
+}
+
+
+.call-to-action .btn {
+  background: rgb(205, 232, 238);
+}
+
+.call-to-action h1 {
+  margin: 0;
+  padding: 50px 0 10px;
+}
+
+.call-to-enter {
+  font-family: serif;
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.call-to-enter {
+  font-size: 20px;
+}
+
+
+.call-to-enter .btn {
+  background: rgb(205, 232, 238);
+}
+
+
+
+.call-to-enter h1 {
+  margin: 0;
+  padding-top: 160px;
+}
+
+.call-to-enter p {
+  font-size: 17px;
+  margin: 5px;
+}
+
+
+.entry {
+  background-image: url(../kokuban1.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.entry h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: serif;
+  font-weight: bold;
+  padding-top: 90px;
+}
+
+.entry h1, .entry p {
+  color: white;
+}
+
+footer {
+  background: grey;
+  color: azure;
+  text-align: center;
+}
+
+
+@media(min-width:900px) {
+
+  header h1 {
+    font-size: 60px;
+  }
+
+  header p {
+    font-size: 30px;
+  }
+
+  .container section {
+    display: flex;
+    width: 900px;
+    margin: 20px auto;
+    justify-content: space-between;
+  }
+  .container img {
+    width: 400px;
+    height: 250px;
+  }
+  
+
+  .container .icon {
+    width: 48%;
+  }
+  
+  .container .info {
+    width: 40%;
+  }
+
+  .container section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .members ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .members img {
+    width: 240px;
+    height: 150px;
+    border-radius: 5px;
+  }
+
+  .members p {
+    font-size: 15px;
+    /* width: 280px; */
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .entry h1 {
+    font-size: 30px;
+  }
+
+  .btn {
+    background: white;
+    color: black;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+
+}
